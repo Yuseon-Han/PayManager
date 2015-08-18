@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="version">v 1.3</string>
+    <string name="app_name">Pay Manager</string>
+    
+    <string name="nonGroupActivity">Standard</string>
+    <string name="GroupActivity">Group</string>
+    <string name="CntOfMetting"> :</string>
+    <string name="moneyAndPeople">"$,  Personnel : "</string>
+    <string name="addMetting">" Add"</string>
+    <string name="removeMetting">" Remove"</string>
+    <string name="noMoreAdd">You can not add any more.</string>
+    <string name="cal">Calculation</string>
+    <string name="people">""</string>
+    <string name="people_group">" Payer"</string>
+    <string name="measure">$</string>
+    <string name="result">Result</string>
+    <string name="mettingAndResult">", per head "</string>
+    <string name="result_sub">Enter the account number you need and use the copy.</string>
+    <string name="result_account">"Account Number : "</string>
+    
+    <string name="selectGroup">Select Group</string>
+    <string name="addMember">Add member</string>
+    <string name="saveGroup">Save member</string>
+    <string name="removeGroup">Delete group</string>
+    <string name="addGroup">Add group</string>
+    <string name="putGroupName">Enter the name of the group you want to add</string>
+    <string name="confirmRemoveGroup">Delete the selected group</string>
+    <string name="delete">Deletion</string>
+	<string name="account">Account</string>
+	<string name="attend">Attend</string> 
+	<string name="calculater">Payer</string>   
+	
+	<string name="thereisblank">There is a blank space</string>
+	<string name="selectGroup_noti">Select a group</string>
+	<string name="saveComplete_noti">Complete storage</string>
+	
+	<string name="addAccount">Enter the account number</string>
+	<string name="putAccount">Enter the account number of the selected members.</string>
+    
+	<string name="info_group_attendCnt">Automatically calculates the number of people.</string>
+	
+	<!-- add -->
+	<string name="group">Group</string>
+	<string name="member">Member</string>
+	<string name="info_save_member">Save member.</string>
+	    
+</resources>

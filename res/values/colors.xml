@@ -1,0 +1,8 @@
+<resources>
+
+    <color name="text_color_main">#ffffff</color>
+    <color name="text_color_sub">#cccccc</color>	
+    
+    <color name="title_bg">#40ffffff</color>
+    
+</resources>

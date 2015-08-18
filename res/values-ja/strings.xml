@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">割り勘マネージャー</string>
+    
+    <string name="nonGroupActivity">非グループモード</string>
+    <string name="GroupActivity">グループモード</string>
+    <string name="CntOfMetting">次 :</string>
+    <string name="moneyAndPeople">"円, 人数 : "</string>
+    <string name="addMetting">次  追加</string>
+    <string name="removeMetting">次  削除</string>
+    <string name="noMoreAdd">これ以上追加することはできません。</string>
+    <string name="cal">計算</string>
+    <string name="people">人 </string>
+    <string name="people_group">人 , 支払人</string>
+    <string name="measure">円</string>
+    <string name="result">結果</string>
+    <string name="mettingAndResult">"次, 各 "</string>
+    <string name="result_sub">口座番号を入力した後、コピーして使用してください。</string>
+    <string name="result_account">"口座番号 : "</string>
+    
+    <string name="selectGroup">グループ 選択</string>
+    <string name="addMember">メンバー 追加</string>
+    <string name="saveGroup">メンバー保存</string>
+    <string name="removeGroup">グループ削除</string>
+    <string name="addGroup">グループ追加</string>
+    <string name="putGroupName">追加するグループの名前を入力してください。</string>
+    <string name="confirmRemoveGroup">選択したグループを削除します。</string>
+    <string name="delete">削除</string>
+	<string name="account">口座</string>
+	<string name="attend">参加</string>   
+	<string name="calculater">支払人</string>    
+	
+	<string name="thereisblank">空欄があります。</string>
+	<string name="selectGroup_noti">グループを選択してください。</string>
+	<string name="saveComplete_noti">保存完了</string>
+	
+	<string name="addAccount">口座番号入力</string>
+	<string name="putAccount">選択されたメンバーの口座番号を入力してください。</string>
+    
+	<string name="info_group_attendCnt">人数は自動的に計算されます。</string>
+	
+	
+	<!-- add -->
+	<string name="group">グループ</string>
+	<string name="member">メンバー</string>
+	<string name="info_save_member">メンバーを保存してください。</string>
+	    
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Preste Gerente</string>
+    
+    <string name="nonGroupActivity">El modo no-grupo</string>
+    <string name="GroupActivity">El modo de grupo</string>
+    <string name="CntOfMetting"> :</string>
+    <string name="moneyAndPeople">"euro,  personal : "</string>
+    <string name="addMetting"> añadir</string>
+    <string name="removeMetting"> borrar</string>
+    <string name="noMoreAdd">No se pueden añadir más.</string>
+    <string name="cal">cálculo</string>
+    <string name="people"></string>
+    <string name="people_group">, pagador</string>
+    <string name="measure">euro</string>
+    <string name="result">resultado</string>
+    <string name="mettingAndResult">", Por persona "</string>
+    <string name="result_sub">Ingrese el número de cuenta que necesita y utilizar la copia.</string>
+    <string name="result_account">"número de cuenta : "</string>
+    
+    <string name="selectGroup">Seleccione Grupo</string>
+    <string name="addMember">Añadir miembro</string>
+    <string name="saveGroup">Ahorra miembro</string>
+    <string name="removeGroup">Eliminar grupo</string>
+    <string name="addGroup">Añadir grupo</string>
+    <string name="putGroupName">Introduzca el nombre del grupo que desea agregar.</string>
+    <string name="confirmRemoveGroup">Eliminar el grupo seleccionado.</string>
+    <string name="delete">supresión</string>
+	<string name="account">cuenta</string>
+	<string name="attend">asistir</string> 
+	<string name="calculater">uno Calculado</string>   
+	
+	<string name="thereisblank">Hay un espacio en blanco.</string>
+	<string name="selectGroup_noti">Seleccione un grupo</string>
+	<string name="saveComplete_noti">Almacenamiento completo.</string>
+	
+	<string name="addAccount">Ingrese el número de cuenta.</string>
+	<string name="putAccount">Ingrese el número de cuenta de los miembros seleccionados.</string>
+    
+	<string name="info_group_attendCnt">Calcula automáticamente el número de personas.</string>
+	
+	<!-- add -->
+	<string name="group">grupo</string>
+	<string name="member">miembro</string>
+	<string name="info_save_member">Ahorra miembro.</string>
+</resources>
+

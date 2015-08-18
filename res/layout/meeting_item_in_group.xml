@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="1dip" >
+
+    <TextView
+        android:id="@+id/mettingCnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dip"
+        android:layout_marginRight="1dip"
+        android:singleLine="true"
+        android:textSize="13sp"
+        android:textColor="@color/text_color_main" />
+
+    <EditText
+        android:id="@+id/howmuch"
+        android:layout_width="75dip"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg_drawable"
+        android:gravity="right"
+        android:inputType="numberDecimal"
+        android:padding="3dip"
+        android:textSize="13sp"
+        android:textColor="@color/text_color_main" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dip"
+        android:layout_marginRight="1dip"
+        android:text="@string/moneyAndPeople"
+        android:textSize="13sp"
+        android:textColor="@color/text_color_main" />
+
+    <TextView
+        android:id="@+id/howmany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:padding="3dip"
+        android:textSize="13sp"
+        android:textColor="@color/text_color_main" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dip"
+        android:layout_marginRight="1dip"
+        android:text="@string/people_group"
+        android:textSize="13sp"
+        android:textColor="@color/text_color_main" />
+
+    <Spinner
+        android:id="@+id/meeting_spinner"
+        android:layout_width="80dip"
+        android:layout_height="40dip"
+        android:layout_marginLeft="1dip"
+        android:textColor="@color/text_color_main"
+        android:background="@drawable/spinner_bg"
+        />
+
+</LinearLayout>

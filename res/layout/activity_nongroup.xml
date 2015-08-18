@@ -1,0 +1,163 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/non_group_bg_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <!-- title -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:background="@color/title_bg" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="8dip"
+            android:text="@string/nonGroupActivity"
+            android:textColor="@color/text_color_main"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#ffffff" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="1dip"
+        android:background="#ffffff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btn_add_metting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="8dip"
+                        android:background="@drawable/btn_bg_drawable"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:textColor="@color/text_color_main" />
+
+                    <Button
+                        android:id="@+id/btn_remove_metting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="8dip"
+                        android:background="@drawable/btn_bg_drawable"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:visibility="invisible"
+                        android:textColor="@color/text_color_main" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/mettings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:background="#ffffff" />
+
+                <Button
+                    android:id="@+id/btn_enter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginTop="10dip"
+                    android:background="@drawable/btn_bg_drawable"
+                    android:gravity="center"
+                    android:text="@string/cal"
+                    android:textSize="14sp"
+                    android:textColor="@color/text_color_main" />
+
+                <LinearLayout
+                    android:id="@+id/result_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal"
+                    android:visibility="invisible" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="bottom|center_horizontal"
+                        android:paddingLeft="8dip"
+                        android:text="@string/result"
+                        android:textSize="15sp"
+                        android:textColor="@color/text_color_main" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="bottom|center_horizontal"
+                        android:paddingLeft="8dip"
+                        android:text="@string/result_sub"
+                        android:textColor="@color/text_color_sub"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/edit_text_result_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="8dip"
+                    android:layout_marginTop="10dip"
+                    android:background="@drawable/btn_bg_drawable"
+                    android:gravity="left"
+                    android:inputType="textMultiLine"
+                    android:padding="5dip"
+                    android:textSize="13sp"
+                    android:visibility="invisible"
+                    android:textColor="@color/text_color_main" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView_nonGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7659444355995967/4336759332" />
+
+</LinearLayout>

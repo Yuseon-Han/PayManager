@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">各自付款  计算器</string>
+    
+    <string name="nonGroupActivity">非组 计算</string>
+    <string name="GroupActivity">组计算</string>
+    <string name="CntOfMetting"> :</string>
+    <string name="moneyAndPeople">"元, 人数 : "</string>
+    <string name="addMetting">" 加"</string>
+    <string name="removeMetting">" 清除"</string>
+    <string name="noMoreAdd">你不能添加任何更多.</string>
+    <string name="cal">计算</string>
+    <string name="people">人</string>
+    <string name="people_group">人, 付款人</string>
+    <string name="measure">元</string>
+    <string name="result">结果</string>
+    <string name="mettingAndResult">", 每 "</string>
+    <string name="result_sub">输入您需要的账号，并使用该副本。</string>
+    <string name="result_account">"帐号 : "</string>
+    
+    <string name="selectGroup">选择组</string>
+    <string name="addMember">加入会员</string>
+    <string name="saveGroup">除成员</string>
+    <string name="removeGroup">删除组</string>
+    <string name="addGroup">添加组</string>
+    <string name="putGroupName">输入您要添加的组的名称</string>
+    <string name="confirmRemoveGroup">删除选定的组</string>
+    <string name="delete">删除</string>
+	<string name="account">帐号</string>
+	<string name="attend">出席</string> 
+	<string name="calculater">谁付出的人</string>   
+	
+	<string name="thereisblank">有一个空格。</string>
+	<string name="selectGroup_noti">选择一个组</string>
+	<string name="saveComplete_noti">完整的存储</string>
+	
+	<string name="addAccount">输入帐户号码。</string>
+	<string name="putAccount">输入所选成员的帐户号码。</string>
+    
+	<string name="info_group_attendCnt">自动计算人数。</string>
+	
+	<!-- add -->
+	<string name="group">组</string>
+	<string name="member">成员</string>
+	<string name="info_save_member">救成员</string>
+</resources>

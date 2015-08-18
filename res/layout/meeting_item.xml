@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="5dip"
+    >
+
+    <TextView 
+        android:id="@+id/mettingCnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp" 
+        android:layout_marginLeft="7dip"
+        android:layout_marginRight="3dip"
+        android:singleLine="true"
+        android:textColor="@color/text_color_main"
+        />
+    
+     <EditText 
+        android:id="@+id/howmuch"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:textSize="13sp" 
+        android:inputType="numberDecimal"
+        android:padding="5dip"
+        android:background="@drawable/btn_bg_drawable"
+        android:gravity="right"
+        android:textColor="@color/text_color_main"
+        />
+    
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp" 
+        android:text="@string/moneyAndPeople"
+        android:layout_marginLeft="3dip"
+        android:layout_marginRight="3dip"
+        android:textColor="@color/text_color_main"
+        />
+     
+      <EditText 
+        android:id="@+id/howmany"
+        android:layout_width="35dip"
+        android:layout_height="wrap_content"
+        android:textSize="13sp" 
+        android:inputType="numberDecimal"
+        android:padding="5dip"
+        android:background="@drawable/btn_bg_drawable"
+        android:gravity="right"
+        android:textColor="@color/text_color_main"
+        />
+      
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp" 
+        android:text="@string/people"
+        android:layout_marginLeft="3dip"
+        android:layout_marginRight="3dip"
+        android:textColor="@color/text_color_main"
+        />
+      
+</LinearLayout>
